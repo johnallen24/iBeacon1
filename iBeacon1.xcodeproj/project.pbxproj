@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB66454821220C01005F968B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB66454721220C01005F968B /* Extensions.swift */; };
 		AB89F56721064B250079B50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89F56621064B250079B50D /* AppDelegate.swift */; };
 		AB89F56921064B250079B50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89F56821064B250079B50D /* ViewController.swift */; };
 		AB89F56C21064B250079B50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89F56A21064B250079B50D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB66454721220C01005F968B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AB89F56321064B250079B50D /* iBeacon1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeacon1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB89F56621064B250079B50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB89F56821064B250079B50D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				AB89F56621064B250079B50D /* AppDelegate.swift */,
 				AB89F56821064B250079B50D /* ViewController.swift */,
+				AB66454721220C01005F968B /* Extensions.swift */,
 				AB89F56A21064B250079B50D /* Main.storyboard */,
 				AB89F56D21064B270079B50D /* Assets.xcassets */,
 				AB89F56F21064B270079B50D /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB89F56921064B250079B50D /* ViewController.swift in Sources */,
+				AB66454821220C01005F968B /* Extensions.swift in Sources */,
 				AB89F56721064B250079B50D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,10 +283,12 @@
 		AB89F57621064B270079B50D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MMWBDUR663;
 				INFOPLIST_FILE = iBeacon1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +303,12 @@
 		AB89F57721064B270079B50D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MMWBDUR663;
 				INFOPLIST_FILE = iBeacon1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
